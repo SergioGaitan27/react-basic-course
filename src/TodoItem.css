@@ -1,0 +1,58 @@
+li{
+    width: 90%;
+    height: 50px;
+    background-color: #D2DE32;
+    list-style: none;
+    display: flex;
+    margin-top: 16px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+li:hover{
+    border: 1px solid #17594A;
+}
+
+.completed-btn{
+    display: block; 
+    background-image: url(/public/svg/checkboxsm.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 25px;
+}
+
+.todo-text{
+    width: 80%;
+    text-align: center;
+}
+
+.delate-btn{
+    display: block;
+    background-image: url(/public/svg/delate.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+
+.completed-btn--check{
+    display: block; 
+    background-image: url(/public/svg/checkboxm.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 25px;
+}
+
+.todo-text--check {
+    width: 80%;
+    text-align: center;
+    text-decoration: line-through;
+}

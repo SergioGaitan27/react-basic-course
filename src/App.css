@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #CDF5FD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
